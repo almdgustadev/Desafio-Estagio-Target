@@ -10,7 +10,7 @@ public class Desafio3 {
 
     public static void main(String[] args) {
         try {
-            String conteudo = new String(Files.readAllBytes(Paths.get("faturamento.json")));
+            String conteudo = new String(Files.readAllBytes(Paths.get("src/dados.json")));
             JSONArray faturamentoArray = new JSONArray(conteudo);
 
             double menorFaturamento = Double.MAX_VALUE;
@@ -20,7 +20,7 @@ public class Desafio3 {
 
             for (int i = 0; i < faturamentoArray.length(); i++) {
                 JSONObject dia = faturamentoArray.getJSONObject(i);
-                double faturamento = dia.getDouble("faturamento");
+                double faturamento = dia.getDouble("valor");
 
                 if (faturamento > 0) {
                     if (faturamento < menorFaturamento) {
@@ -40,7 +40,7 @@ public class Desafio3 {
 
             for (int i = 0; i < faturamentoArray.length(); i++) {
                 JSONObject dia = faturamentoArray.getJSONObject(i);
-                double faturamento = dia.getDouble("faturamento");
+                double faturamento = dia.getDouble("valor");
 
                 if (faturamento > mediaFaturamento) {
                     diasAcimaDaMedia++;
