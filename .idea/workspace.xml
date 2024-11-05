@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="460d2c0d-ea19-448b-9494-700d943488f7" name="Changes" comment="" />
+    <list default="true" id="460d2c0d-ea19-448b-9494-700d943488f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio5.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "almdgustadev"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/almdgustadev/Desafio-Estagio-Target.git",
+    "accountId": "9cce2be6-8d0b-456d-ba19-11eb41455d7f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2oRsoxv4modf3ZyviTMrWzgyiJt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,11 +50,53 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Desafio1.executor": "Run",
+    "Application.Desafio2.executor": "Run",
+    "Application.Desafio4.executor": "Run",
+    "Application.Desafio5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gunna/Downloads/json-20240303.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON",
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PROGRAMAÇÃO\Desafio-Estagio\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Desafio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafio1" />
+      <module name="Desafio-Estagio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Desafio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafio2" />
+      <module name="Desafio-Estagio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Desafio2" />
+        <item itemvalue="Application.Desafio1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
