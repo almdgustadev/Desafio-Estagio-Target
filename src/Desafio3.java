@@ -1,3 +1,5 @@
+//Desafio 3 realizado com auxilio, pois tive dificuldade ao manusear arquivos JSON, porem com estudos aprendi.
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.nio.file.Files;
@@ -8,7 +10,6 @@ public class Desafio3 {
 
     public static void main(String[] args) {
         try {
-            // Carrega os dados do JSON
             String conteudo = new String(Files.readAllBytes(Paths.get("faturamento.json")));
             JSONArray faturamentoArray = new JSONArray(conteudo);
 
@@ -17,12 +18,10 @@ public class Desafio3 {
             double somaFaturamento = 0;
             int diasComFaturamento = 0;
 
-            // Itera sobre os valores de faturamento
             for (int i = 0; i < faturamentoArray.length(); i++) {
                 JSONObject dia = faturamentoArray.getJSONObject(i);
                 double faturamento = dia.getDouble("faturamento");
 
-                // Ignora dias sem faturamento
                 if (faturamento > 0) {
                     if (faturamento < menorFaturamento) {
                         menorFaturamento = faturamento;
@@ -36,11 +35,9 @@ public class Desafio3 {
                 }
             }
 
-            // Calcula a média de faturamento dos dias válidos
             double mediaFaturamento = somaFaturamento / diasComFaturamento;
             int diasAcimaDaMedia = 0;
 
-            // Conta os dias com faturamento acima da média
             for (int i = 0; i < faturamentoArray.length(); i++) {
                 JSONObject dia = faturamentoArray.getJSONObject(i);
                 double faturamento = dia.getDouble("faturamento");
@@ -50,7 +47,6 @@ public class Desafio3 {
                 }
             }
 
-            // Exibe os resultados
             System.out.println("Menor faturamento em um dia do mês: " + menorFaturamento);
             System.out.println("Maior faturamento em um dia do mês: " + maiorFaturamento);
             System.out.println("Número de dias com faturamento acima da média mensal: " + diasAcimaDaMedia);
